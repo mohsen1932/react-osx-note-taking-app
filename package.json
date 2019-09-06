@@ -1,0 +1,16 @@
+{
+  "name": "detectify-frontend-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "server": "json-server db.json --port 3004",
+    "start": "concurrently \"npm run server\" \"cd client && npm start\" ",
+    "test": "cd client && npm test"
+  },
+  "dependencies": {
+    "json-server": "^0.14.2",
+    "concurrently": "^4.1.2"
+  }
+}

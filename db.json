@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "body": "test",
+      "categoryId": 1,
+      "date": "2019-09-03 22:16"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Default Category"
+    }
+  ]
+}

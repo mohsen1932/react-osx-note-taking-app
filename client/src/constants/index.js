@@ -1,0 +1,13 @@
+export const LOADING = `LOADING`;
+export const GET = `GET_ITEMS`;
+export const SET = `SET_ITEMS`;
+export const ADD_ITEM = `ADD_ITEM`;
+export const DELETE_ITEM = `DELETE_ITEM`;
+export const UPDATE_ITEM = `UPDATE_ITEM`;
+export const GET_CATEGORIES = `GET_CATEGORIES`;
+export const SET_CATEGORIES = `SET_CATEGORIES`;
+export const SET_CATEGORY_ITEMS = `SET_CATEGORY_ITEMS`;
+export const ADD_CATEGORY = `ADD_CATEGORY`;
+export const SET_SEARCH_RESULTS = `SET_SEARCH_RESULTS`;
+export const SET_ACTIVE_NOTE = `SET_ACTIVE_NOTE`;
+export const SET_ACTIVE_CATEGORY = `SET_ACTIVE_CATEGORY`;
